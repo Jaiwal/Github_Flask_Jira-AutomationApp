@@ -53,7 +53,7 @@ Webhooks are failing, or the Flask application returns a 500 error or issue not 
    - Go to EC2 console > Security Groups.
    - Ensure Inbound Rules allow necessary ports (e.g., 80, 443 , 5000) for GitHub IPs.
 
-Referneces:
+## Referneces:
 [1]https://developer.atlassian.com/cloud/jira/platform/rest/v3/api-group-issues/#api-rest-api-3-issue-post
 [2]https://medium.com/@shehmiljamal/github-jira-integration-using-python-flask-ca69d0b2263e
 
