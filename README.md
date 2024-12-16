@@ -1,4 +1,3 @@
-# Github_Flask_Jira-AutomationApp
 
 # GitHub-Jira Automation Flask Web Application
 
@@ -9,16 +8,14 @@ This GitHub-Jira integration project involves a Flask web application hosted on 
 ## How It Works
 
 1. **GitHub Webhooks:**
-     [![Screenshot-from-2023-12-16-01-18-43.png](https://i.postimg.cc/c42SWNcx/Screenshot-from-2023-12-16-01-18-43.png)](https://postimg.cc/1fGT02T2)
+     [![Screenshot-2024-12-16-at-7-28-12-PM.png](https://i.postimg.cc/8cqdM7mV/Screenshot-2024-12-16-at-7-28-12-PM.png)](https://postimg.cc/Lg3ZM6Wy)
    - The Flask web application is configured to receive GitHub webhook events.
    - GitHub issues trigger events that contain information about comments, which the application analyzes.
 
 3. **GitHub Issue Comment Processing:**
-   [![Screenshot-from-2023-12-16-01-25-34.png](https://i.postimg.cc/qMwdt307/Screenshot-from-2023-12-16-01-25-34.png)](https://postimg.cc/SJnP3jn0)
    - When a comment is made on a GitHub issue, the application checks if it contains the "/jira" command.
 
 5. **Jira API Automation:**
-     [![Screenshot-from-2023-12-16-01-20-57.png](https://i.postimg.cc/C11PdRFW/Screenshot-from-2023-12-16-01-20-57.png)](https://postimg.cc/PLgzRrv4)
    - If the "/jira" command is detected, the application uses the Jira REST API to create a new issue on the Jira board.
    - Key details such as project, issue type, and summary are included in the API request payload.
 
