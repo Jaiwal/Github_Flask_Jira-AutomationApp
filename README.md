@@ -8,7 +8,6 @@ This GitHub-Jira integration project involves a Flask web application hosted on 
 ## How It Works
 
 1. **GitHub Webhooks:**
-     [![Screenshot-2024-12-16-at-7-28-12-PM.png](https://i.postimg.cc/8cqdM7mV/Screenshot-2024-12-16-at-7-28-12-PM.png)](https://postimg.cc/Lg3ZM6Wy)
    - The Flask web application is configured to receive GitHub webhook events.
    - GitHub issues trigger events that contain information about comments, which the application analyzes.
 
@@ -34,14 +33,13 @@ This GitHub-Jira integration project involves a Flask web application hosted on 
         $ vim your-filename.py
         $ python3 your-filename.py
      ```
-     [![Screenshot-from-2023-12-16-01-23-53.png](https://i.postimg.cc/15k3HF2r/Screenshot-from-2023-12-16-01-23-53.png)](https://postimg.cc/Wh7Vpd2d)
      - It will initiate the Flask application
 
 # Troubleshooting Guide
 
 ## Problem:
-[![Screenshot-from-2023-12-16-01-32-10.png](https://i.postimg.cc/cC3WNWr5/Screenshot-from-2023-12-16-01-32-10.png)](https://postimg.cc/Fkh8j2bj)
-Webhooks are failing, or the Flask application returns a 500 error.
+
+Webhooks are failing, or the Flask application returns a 500 error or issue not getting created
 
 ## Possible Causes and Solutions:
 
@@ -54,9 +52,6 @@ Webhooks are failing, or the Flask application returns a 500 error.
 3. **EC2 Security Groups:**
    - Go to EC2 console > Security Groups.
    - Ensure Inbound Rules allow necessary ports (e.g., 80, 443 , 5000) for GitHub IPs.
-
-## Reference Screenshot:
-[![Screenshot-from-2023-12-16-01-27-15.png](https://i.postimg.cc/HsTsrHGT/Screenshot-from-2023-12-16-01-27-15.png)](https://postimg.cc/s10RLkDL)
 
 
  Happy coding! 🚀
