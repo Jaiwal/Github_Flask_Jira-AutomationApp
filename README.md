@@ -59,5 +59,4 @@ Webhooks are failing, or the Flask application returns a 500 error.
 [![Screenshot-from-2023-12-16-01-27-15.png](https://i.postimg.cc/HsTsrHGT/Screenshot-from-2023-12-16-01-27-15.png)](https://postimg.cc/s10RLkDL)
 
 
-
-Feel free to explore, contribute, and adapt this project to suit your needs. If you encounter any issues or have suggestions for improvement, please raise them in the GitHub repository's issues section. Happy coding! 🚀
+ Happy coding! 🚀
