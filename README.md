@@ -2,7 +2,7 @@
 
 # GitHub-Jira Automation Flask Web Application
 
-![Jira automation]([Screenshot-2024-12-16-at-7-15-27-PM.png](https://postimg.cc/QFrnb6gh))
+[![Screenshot-2024-12-16-at-7-15-27-PM.png](https://i.postimg.cc/SxXFm3J2/Screenshot-2024-12-16-at-7-15-27-PM.png)](https://postimg.cc/QFrnb6gh)
 ## Overview
 This GitHub-Jira integration project involves a Flask web application hosted on an AWS EC2 instance. The application automates the creation of Jira issues based on GitHub issue comments. Specifically, when a user comments "/jira" on a GitHub issue, the web application triggers a process that utilizes GitHub webhooks, Jira API automation, and AWS EC2.
 
